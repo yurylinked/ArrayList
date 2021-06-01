@@ -1,0 +1,8 @@
+public interface CarList {
+    Car get(int index);
+    void add(Car car);
+    boolean remove(int index);
+    boolean remove(Car car);
+    int size();
+    void clear();
+}
